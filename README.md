@@ -1,3 +1,4 @@
+
 # Gradient Generator
 
 This is simple Gradient Generator made using JavaScript
@@ -8,6 +9,11 @@ This is simple Gradient Generator made using JavaScript
 - [@iammanojrathod](https://www.github.com/iammanojrathod)
 
 
+## Project
+
+https://gradient-generator-bg.netlify.app
+
+
 ## Tech Stack
 
 **HTML, CSS, JAVASCRIPT** 
@@ -16,5 +22,6 @@ This is simple Gradient Generator made using JavaScript
 ## Contributing
 
 Contributions are always welcome!
+
 
 
