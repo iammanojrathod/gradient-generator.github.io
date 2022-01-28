@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap");
+
+body {
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  letter-spacing: 0.5em;
+  padding: 100px;
+  line-height: 50px;
+  background-image: linear-gradient(to right top, black, green, red);
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  width: 100%;
+  margin-bottom: 45px;
+}
+h2 {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+p {
+  margin-top: 50px;
+}
+h3 {
+  font-size: 17px;
+  margin: auto;
+  border: 5px solid #000;
+  border-radius: 10px;
+  background-color: #1f1c1c;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+}
+h6 {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+h6 span {
+  color: red;
+}
+h6 a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+/* ************** Media queries *********** */
+
+@media (max-width: 893px) {
+  h6 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h6 {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 17px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+    body{
+        padding: 100px 50px;
+    }
+  h1 {
+    font-size: 15px;
+  }
+  h2{
+      font-size: 20px;
+  }
+  p {
+    margin-top: 12px;
+  }
+  h3 {
+    font-size: 8px;
+    width: 100%;
+  }
+  h6 {
+    font-size: 10px;
+  }
+}
